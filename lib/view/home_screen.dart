@@ -8,6 +8,20 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Barcode Scanner'),
+        centerTitle: true,
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Start Barcode Scan'),
+            ),
+            const SizedBox(height: 10),
+            const Text('Result'),
+          ],
+        ),
       ),
     );
   }
