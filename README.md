@@ -1,16 +1,28 @@
-# barcode_scanner
+# Barcode Scanner
 
-A new Flutter project.
+## Overview
+
+Barcode Scanner is a Flutter project that utilizes the camera to scan and decode various types of barcodes. This application demonstrates how to integrate barcode scanning functionality into your Flutter app.
+
+## Features
+
+- Camera-based barcode scanning
+- Decoding and displaying information from scanned barcodes
+
+## Key Tools
+
+- Flutter
+- Camera
+- Barcode Scanner package
+
+## Project Structure
+
+- `lib/`: Contains the main Flutter application code
+- `assets/`: Include any necessary assets such as images or fonts
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/habeeb321/Barcode-Scanner.git
